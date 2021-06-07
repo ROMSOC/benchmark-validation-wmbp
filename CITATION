@@ -1,0 +1,9 @@
+@MISC{validation-wmbp,
+key = {validation-wmbp},
+author = {Martinolli M.},
+title = {{Validation-WMBP} -- {Validation of numerical simulations of Wave Membrane Blood Pumps against real pressure-flow data.} (Version 0.1)},
+month = June,
+year = 2021,
+doi = {10.xxxx/zenodo.xxxxxxx},
+note = {see also: \url{https://github.com/ROMSOC}}
+}

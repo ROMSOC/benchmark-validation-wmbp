@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lifev/lifev-src/lifev/eta/tutorials/12_ETA_LaplacianPhiJ/main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ETA"
+		],
+		"name" : "ETA_12_ETA_LaplacianPhiJ"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lifev/lifev-src/lifev/xfem/examples/validation/main_benchmark.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"XFEM"
+		],
+		"name" : "XFEM_BENCHMARK"
+	}
+}

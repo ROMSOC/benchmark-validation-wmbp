@@ -1,0 +1,907 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/LifeV.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/LifeVersion.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-build/lifev/core/Core_config.h"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/SolverAmesos.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerComposed.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/NonLinearLineSearch.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerAztecOO.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/NonLinearRichardson.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/ComposedOperator.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/SolverAztecOO.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/NonLinearAitken.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerIfpack.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/NonLinearBrent.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/Preconditioner.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/EigenSolver.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/LinearSolver.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerML.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerBlock.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerComposition.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerTeko.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerLinearSolver.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/EnumMapEpetra.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorEpetra.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MapVector.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorSmall.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/RNMTemplate.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorBlockStructure.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MatrixBlockStructure.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MatrixEpetraStructuredUtility.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MatrixEpetraStructuredView.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MapEpetra.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MapEpetraData.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/RNMOperatorConstant.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/RNM.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorContainer.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MatrixElemental.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MatrixEpetra.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorEpetraStructured.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MatrixEpetraStructured.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MatrixBlockMonolithicEpetraView.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MatrixBlockMonolithicEpetra.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MatrixSmall.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorBlockMonolithicEpetra.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorBlockMonolithicEpetraView.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorEpetraStructuredView.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/ArraySimple.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorElemental.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/RNMOperator.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MatrixContainer.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/GhostHandler.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/CoordinateSystem.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/dataStructure/ADTree.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/dataStructure/BoundingBox.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/dataStructure/Collection.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/dataStructure/Domain.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/dataStructure/ExceptionHandling.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/dataStructure/Header.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/dataStructure/LinearTransformation.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/dataStructure/TreeNode.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/Assembly.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/AssemblyElemental.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCBase.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCDataInterpolator.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCFunction.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCHandler.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCIdentifier.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCManage.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCManageNormal.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCVector.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/CurrentFE.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/CurrentFEManifold.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOF.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOFDiscontinuous.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOFExtended.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOFGatherer.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOFInterface.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOFInterface3Dto2D.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOFInterface3Dto3D.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOFLocalPattern.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/FEField.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/FEFunction.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/FESpace.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/FESpaceExtended.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/FESpaceDiscontinuous.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/FESpaceInterpolation.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/GeometricMap.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/GradientRecovery.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/HyperbolicFluxNumerical.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/QRKeast.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/PostProcessingBoundary.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/QuadraturePoint.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/QuadratureRule.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/QuadratureRuleProvider.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/ReferenceElement.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/ReferenceFE.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/ReferenceFEHdiv.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/ReferenceFEHybrid.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/ReferenceFEScalar.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/SobolevNorms.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/TimeAdvance.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/TimeAdvanceBDF.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/TimeAdvanceBDFVariableStep.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/TimeAdvanceData.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/TimeAdvanceNewmark.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/TimeData.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/ExporterEnsight.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/MeshWriter.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/ExporterHDF5Mesh3D.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/GetPot.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/HDF5IO.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/Exporter.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/ImporterMesh3D.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/Importer.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/ExporterEmpty.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/ExporterVTK.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/ExporterHDF5.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/ImporterMesh2D.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/ParserGmsh.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/ParserINRIAMesh.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/ExporterHDF5Disc.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/ExporterHDF5XFEM.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/PartitionIO.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/function/Laplacian.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshEntityContainer.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshData.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/RegionMesh.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/Marker.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/InternalEntitySelector.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshEntity.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshVertex.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/RegionMesh3DStructured.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/ElementShapes.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshPartitioner.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MarkerDefinitions.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshUtility.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/BareMesh.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/ConvertBareMesh.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshElement.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshElementBare.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/RegionMesh1DBuilders.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/RegionMesh1DStructured.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshChecks.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshElementMarked.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/GraphCutterBase.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/GraphCutterZoltan.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/GraphCutterParMETIS.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/GraphUtil.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshPartitionTool.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshPartBuilder.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/NeighborMarker.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/RegionMesh2DStructured.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/HexahedralMesh3DStructured.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshIntersection.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MarkerIntersection.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MarkerDefinitionsIntersection.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/IntersectionPointsOnEntity.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/FastEntityIntersection.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/EntityIntersection.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshPartitionerIntersection.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/TetGenWrapper.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/RegionMesh3DUnstructured.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/TriangleWrapper.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/CutElements.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/SimpleMesh.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/SimpleSubTetrahedralization.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/Contact.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/RayCasting.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/operator/AztecooOperator.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/operator/BelosOperator.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/operator/ConfinedOperator.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/operator/LinearOperator.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/operator/SolverOperator.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/solver/ADRData.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/solver/ADRAssemblerIP.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/solver/ADRAssembler.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/solver/HyperbolicSolver.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/solver/HyperbolicData.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/FactoryTypeInfo.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/Switch.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/EncoderBase64.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/LifeDebug.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/StringUtility.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/LifeAssertSmart.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/Parser.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/FactorySingleton.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/StringData.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/ParserSpiritGrammar.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/FortranWrapper.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/Factory.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/LifeAssert.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/LifeChrono.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/LifeChronoManager.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/Displayer.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/ParserDefinitions.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/FactoryPolicy.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/WallClock.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/OpenMPParameters.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/VerifySolutions.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/LifeTraits.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/LifeTolerance.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/ConditionalOstream.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/Flag.hpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/LifeV.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/LifeVersion.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/SolverAmesos.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerML.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/Preconditioner.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerAztecOO.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerComposed.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerComposition.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerIfpack.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerBlock.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/SolverAztecOO.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/EigenSolver.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/LinearSolver.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerTeko.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/algorithm/PreconditionerLinearSolver.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MatrixBlockStructure.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorElemental.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorSmall.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MatrixElemental.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorBlockMonolithicEpetra.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorBlockMonolithicEpetraView.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorBlockStructure.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorEpetraStructuredView.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorEpetra.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/MapEpetra.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/VectorEpetraStructured.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/array/CoordinateSystem.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/AssemblyElemental.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCBase.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCDataInterpolator.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCFunction.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCHandler.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCIdentifier.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCManage.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/BCVector.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/CurrentFE.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/CurrentFEManifold.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOF.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOFExtended.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOFInterface.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOFInterface3Dto2D.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOFInterface3Dto3D.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/DOFLocalPattern.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/FEDefinitions.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/GeometricMap.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/QuadraturePoint.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/QuadratureRule.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/QuadratureRuleProvider.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/ReferenceElement.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/ReferenceFE.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/QRKeast.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/ReferenceFEHdiv.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/ReferenceFEHybrid.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/ReferenceFEScalar.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/TimeAdvanceData.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/fem/TimeData.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/HDF5IO.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/Importer.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/filter/ImporterMesh3D.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/function/Laplacian.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/Marker.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/RegionMesh3DStructured.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshVertex.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/RegionMesh.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshElementBare.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/ElementShapes.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshUtility.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshData.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/InternalEntitySelector.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/MeshEntity.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/RegionMesh2DStructured.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/HexahedralMesh3DStructured.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/TetGenWrapper.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/TriangleWrapper.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/CutElements.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/SimpleMesh.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/SimpleSubTetrahedralization.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/Contact.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/mesh/RayCasting.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/operator/AztecooOperator.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/operator/BelosOperator.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/operator/ConfinedOperator.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/operator/SolverOperator.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/solver/ADRData.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/LifeDebug.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/StringData.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/EncoderBase64.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/StringUtility.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/LifeAssertSmart.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/Switch.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/Parser.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/FactoryTypeInfo.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/Displayer.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/WallClock.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/OpenMPParameters.cpp"
+		},
+		{
+			"file" : "/home/lifev/lifev-src/lifev/core/util/VerifySolutions.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Core"
+		],
+		"name" : "lifevcore"
+	}
+}

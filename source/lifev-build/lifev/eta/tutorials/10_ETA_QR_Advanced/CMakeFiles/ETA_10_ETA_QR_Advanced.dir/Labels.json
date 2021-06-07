@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lifev/lifev-src/lifev/eta/tutorials/10_ETA_QR_Advanced/main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ETA"
+		],
+		"name" : "ETA_10_ETA_QR_Advanced"
+	}
+}

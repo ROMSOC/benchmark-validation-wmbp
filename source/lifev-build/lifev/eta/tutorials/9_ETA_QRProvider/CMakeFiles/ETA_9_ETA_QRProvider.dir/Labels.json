@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lifev/lifev-src/lifev/eta/tutorials/9_ETA_QRProvider/main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ETA"
+		],
+		"name" : "ETA_9_ETA_QRProvider"
+	}
+}

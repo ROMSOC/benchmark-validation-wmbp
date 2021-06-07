@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lifev/lifev-src/lifev/eta/tutorials/2_ETA_ADR/main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ETA"
+		],
+		"name" : "ETA_2_ETA_ADR"
+	}
+}
