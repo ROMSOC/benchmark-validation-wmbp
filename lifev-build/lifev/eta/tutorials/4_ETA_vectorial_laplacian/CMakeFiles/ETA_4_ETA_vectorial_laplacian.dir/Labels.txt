@@ -1,4 +1,0 @@
-# Target labels
- ETA
-# Source files and their labels
-/home/lifev/lifev-src/lifev/eta/tutorials/4_ETA_vectorial_laplacian/main.cpp

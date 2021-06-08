@@ -1,4 +1,0 @@
-# Target labels
- XFEM
-# Source files and their labels
-/home/lifev/lifev-src/lifev/xfem/examples/validation/main_benchmark.cpp

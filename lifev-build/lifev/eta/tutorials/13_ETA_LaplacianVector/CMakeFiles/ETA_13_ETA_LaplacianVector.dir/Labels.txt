@@ -1,4 +1,0 @@
-# Target labels
- ETA
-# Source files and their labels
-/home/lifev/lifev-src/lifev/eta/tutorials/13_ETA_LaplacianVector/main.cpp

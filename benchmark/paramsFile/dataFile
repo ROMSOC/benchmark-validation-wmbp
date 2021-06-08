@@ -27,6 +27,11 @@
     [../]            
 [../]
 
+[bc]
+    P           =   50     # mmHg #
+    frequency   =   120    # Hz #
+    stroke      =   0.053  # mm #
+
 [penalty]
     gamma_v1        = 5.e-2     # CIP: convection
     gamma_v2        = 5.e-1     # CIP: divergence

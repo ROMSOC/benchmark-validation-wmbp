@@ -1,2 +1,0 @@
-ar qc liblifevxfem.a  CMakeFiles/lifevxfem.dir/core/algorithm/UnfittedMonolithicDN.cpp.o CMakeFiles/lifevxfem.dir/core/algorithm/UnfittedSIMPLE.cpp.o CMakeFiles/lifevxfem.dir/core/algorithm/UnfittedCC.cpp.o CMakeFiles/lifevxfem.dir/core/fem/AssembleContact.cpp.o CMakeFiles/lifevxfem.dir/core/mesh/ReadUnfitMesh.cpp.o CMakeFiles/lifevxfem.dir/core/mesh/IntersectMeshes.cpp.o CMakeFiles/lifevxfem.dir/eta/fem/ExpressionDefinitionsMCI.cpp.o
-/usr/bin/ranlib liblifevxfem.a
