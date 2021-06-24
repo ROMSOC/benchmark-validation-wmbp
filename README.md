@@ -9,10 +9,7 @@ The aim of this benchmark consists in running Fluid-Structure Interaction (FSI) 
 ## Directory structure
 This repository is organized as follows:
 ```
-├── source
-    ├── source: C++ main file used for compilation of the benchmark
-    
-├── benchmarks
+├── benchmark
     ├── executable WMBP.exe
     ├── paramsFile: folder that contains dataFile and solverFile 
     ├── post-processing: Pythonsource files for post-processing
@@ -20,11 +17,15 @@ This repository is organized as follows:
     ├── restart: dataFile and other files to restart simulation
     └── post-processing: source files for post-processing  
 
+├── source
+    ├──  C++ main file used for compilation of the benchmark
+
+├── documentation: 
+    ├── introduction to benchmark, step-by-step procedure, computer requirements.
+
 ├── dockerFile to build image for LIFEV enviroment
 
 ├── runLife.sh to run LIFEV container to run the simulation 
-
-├── documentation: introduction to benchmark, step-by-step procedure, computer requirements.
 
 ├── CITATION
 ├── CONTRIBUTORS
