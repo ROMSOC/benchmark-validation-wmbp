@@ -10,18 +10,19 @@ The aim of this benchmark consists in running Fluid-Structure Interaction (FSI) 
 This repository is organized as follows:
 ```
 ├── source
-    ├── lifev-source: main file used for compilation
-    ├── lifev-build: MATLAB dataset for validation
-    └── DockerFile used to build the container
+    ├── source: C++ main file used for compilation of the benchmark
     
 ├── benchmarks
     ├── executable WMBP.exe
     ├── paramsFile: folder that contains dataFile and solverFile 
-    ├── post-processing: source files for post-processing
-    ├── data: MATLAB dataset for validation
-    ├── meshes: folder that contains unfitted tetrahedral meshes
+    ├── post-processing: Pythonsource files for post-processing
+    ├── data: csv dataset for validation
     ├── restart: dataFile and other files to restart simulation
-    └── post-processing: source files for post-processing   
+    └── post-processing: source files for post-processing  
+
+├── dockerFile to build image for LIFEV enviroment
+
+├── runLife.sh to run LIFEV container to run the simulation 
 
 ├── documentation: introduction to benchmark, step-by-step procedure, computer requirements.
 
