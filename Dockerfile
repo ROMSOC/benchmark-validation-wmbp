@@ -7,7 +7,6 @@ RUN apt-get update && \
         g++ \
         cmake \
         git \
-        vim \
         libblacs-mpi-dev \
         libscalapack-mpi-dev \
         libsuitesparse-dev \
