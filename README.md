@@ -23,7 +23,7 @@ This repository is organized as follows:
 ├── documentation: 
     ├── introduction to benchmark, step-by-step procedure, computer requirements.
 
-├── dockerFile to build image for LIFEV enviroment
+├── dockerFile used to build Docker image for LIFEV enviroment
 
 ├── runLife.sh to run LIFEV container to run the simulation 
 
