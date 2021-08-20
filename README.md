@@ -1,4 +1,5 @@
 # Model validation in Wave Membrane Blood Pumps
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5171806.svg)](https://doi.org/10.5281/zenodo.5171806)
 
 ## Summary
 This benchmark provides a test case for model validation in Wave Membrane Blood Pumps (WMBPs), developed at CorWave SA.
