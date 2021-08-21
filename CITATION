@@ -1,9 +1,0 @@
-@MISC{benchmark-validation-wmbp,
-key = {benchmark-validation-wmbp},
-author = {Martinolli M.},
-title = {{Benchmark} -- {Model validation in Wave Membrane Blood Pumps.} (Version 0.1)},
-month = June,
-year = 2021,
-doi = {10.xxxx/zenodo.xxxxxxx},
-note = {see also: \url{https://github.com/ROMSOC}}
-}
