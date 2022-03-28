@@ -1,7 +1,7 @@
 <img src="images/romsoclogo-logo.png" alt="ROMSOC logo"  width="150"/>
 
-# Model validation in Wave Membrane Blood Pumps
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5171806.svg)](https://doi.org/10.5281/zenodo.5171806)
+# Model validation in Wave Membrane Blood Pumps 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5171806.svg)](https://doi.org/10.5281/zenodo.5171806) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ROMSOC/benchmark-validation-wmbp/HEAD?labpath=Benchmark.ipynb)
 
 ## Summary
 This benchmark provides a test case for model validation in Wave Membrane Blood Pumps (WMBPs), developed at CorWave SA.
@@ -37,6 +37,19 @@ This repository is organized as follows:
 ├── README
 └── .gitignore
 ```
+
+## Run Jupyter notebooks
+The entire benchmark repository can be executed in a provided Docker container where a full installation of LIFEV is available. Once you have clone or downloaded this repository, to build the container just type
+```bash
+docker build -t benchmark-validation-wmbp . 
+```
+and for running it locally:
+```bash
+docker run -it --rm -p 8888:8888 benchmark-validation-wmbp jupyter-lab --ip=0.0.0.0 --port=8888 --allow-root
+```
+
+Alternatively, user-friendly Jupyter Notebooks could be used to run different benchmarks on the cloud. For instance, the benchmark is available at:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ROMSOC/benchmark-validation-wmbp/HEAD?labpath=Benchmark.ipynb). Please, notice that mybinder cloud computations are limited to 2GB of RAM memory.
 
 ## Disclaimer
 In downloading this SOFTWARE you are deemed to have read and agreed to the following terms:
