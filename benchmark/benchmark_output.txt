@@ -1,0 +1,128 @@
+Unexpected end of /proc/mounts line `overlay / overlay rw,relatime,lowerdir=/var/lib/docker/overlay2/l/4JYXBPP5FSEHSP3QMLVMJXFUII:/var/lib/docker/overlay2/l/NRCGANF2DR4MW3QA7DZSNCZWZL:/var/lib/docker/overlay2/l/YUHXNXHUUP2R6WHGGKFWWOLP6U:/var/lib/docker/overlay2/l/FVYULTWJFQEU5HTWVQNRYEQ5PL:/var/lib/docker/overlay2/l/HHM7B7TMOFJMS4ULCXRC3FLF76:/var/lib/docker/overlay2/l/U7UI6T6US7C2XA4TITDVHVDC3R:/var/lib/docker/overlay2/l/JLH3VV24D6ATOKSSTBSUP5YPR7,upperdir=/var/lib/docker/overlay2/b7e987b1bb0aa6bc5b9ccd00a78eb937835ea17691caf610dd684f45dd63'
+Using MPI (1 proc.)
+ -- Reading the data ... -------------------- 
+rhoF               = 1
+mu                 = 0.035
+rhoS               = 1.125
+YoungModulus       = 1.686e+07
+PoissonRatio       = 0.49
+LameI              = 2.77228e+08
+LameII             = 5.65772e+06
+BulkModulus        = 2.81e+08
+rhoS2               = 7.85
+YoungModulus2       = 2.05e+12
+PoissonRatio2       = 0.28
+LameI2              = 1.01918e+12
+LameII2             = 8.00781e+11
+BulkModulus2        = 1.55303e+12
+-------------------- 
+alpha_inter        = 1
+gamma_virt         = 1000
+gamma_inter        = 1e+06
+gamma_ghost        = 1
+gamma_v1           = 0.05
+gamma_v2           = 0.5
+gamma_p            = 0.05
+-------------------- 
+movementEnabled    = 1
+nlConvEnabled      = 1
+nlMaxIter          = 1
+nlMethod           = static
+convToll           = 0.01
+kinToll            = 0.01
+dispToll           = 0.0001
+relaxSolSolid      = 1
+mLin               = 0.2
+-------------------- 
+-------------------- OPERATING POIN --------------------
+Outlet Pressure      = 40
+Stroke               = 0.075
+Frequency            = 44
+--------------------------------------------------------
+-------------------- 
+perturbCoeff       = 1e-07
+-------------------- 
+ done ! 
+ -- Reading the meshes ... 
+   -- BG mesh file: ./meshes/fluid.mesh
+   -- FG1 mesh file: ./meshes/membrane.mesh
+   -- FG2 mesh file: ./meshes/magnet.mesh
+ done in 25.0311 s!
+ -- Check full meshes ... 
+ done in 0.851298 s!
+ -- Partitioning the Reference FG1 mesh ... 
+Building local mesh ...
+ -- Partitioning the Reference FG2 mesh ... 
+Building local mesh ...
+ done in 4.95084 s!
+ -- Setting time data ... 
+
+*** TimeData: values for user-defined data
+
+[/time_discretization]
+Initial time   = 0
+End time       = 0.01
+Time           = 0
+TimeStep       = 0.0002
+TimeStepNumber = 0
+*** BDF Time discretization of order 1 maximum order of derivate 1 ***
+    Coefficients: 
+       alpha(0) = 1
+       alpha(1) = 1
+       beta (0) = 1
+Delta Time : 0.0002
+*************************************
+*** BDF Time discretization of order 1 maximum order of derivate 2 ***
+    Coefficients: 
+       alpha(0) = 1
+       alpha(1) = 1
+       beta (0) = 1
+     xi(0) = 1
+     xi(1) = 2
+     xi(2) = -1
+       beta of the extrapolation of the first derivative (0) = 2
+       beta of the extrapolation of the first derivative (1) = -1
+Delta Time : 0.0002
+*************************************
+*** BDF Time discretization of order 1 maximum order of derivate 2 ***
+    Coefficients: 
+       alpha(0) = 1
+       alpha(1) = 1
+       beta (0) = 1
+     xi(0) = 1
+     xi(1) = 2
+     xi(2) = -1
+       beta of the extrapolation of the first derivative (0) = 2
+       beta of the extrapolation of the first derivative (1) = -1
+Delta Time : 0.0002
+*************************************
+dt : 0.0002
+alphaF : 5000
+alphaS : 2.5e+07
+alphaW : 5000
+ done in 0.000158 s!
+ -- Creating the fluid stuff ... 
+ -- Creating the solid stuff ... 
+ done in 0.84328 s!
+
+    ------------------------ 
+    --     At time 0 ... 
+    ------------------------ 
+        ----------------------------- 
+        --  Internal iteration 0 ... 
+        ----------------------------- 
+Time 0 Iter 0
+ -- Copy meshes ... 
+   -- Copy the BG mesh ...
+   -- Copy the FG1 mesh ...
+   -- Copy the FG2 mesh ...
+ done in 3.27816 s!
+ -- Mesh intersection ... 
+   -- BG vs FG1 ... 
+     -- compute intersections ... 
+     done ! 
+     -- compute overlaps ... 
+     done ! 
+   done ! 
+   -- BG vs FG2 ... 
+     -- compute intersections ... 
