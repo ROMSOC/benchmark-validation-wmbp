@@ -48,8 +48,8 @@ and for running it locally:
 docker run -it --rm martin592/validation-wmbp:latest
 ```
 
-Alternatively, user-friendly Jupyter Notebooks could be used to run different benchmarks on the cloud (or locally). For instance, the benchmark is available at:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ROMSOC/benchmark-validation-wmbp/HEAD?labpath=Benchmark.ipynb). Please, notice that mybinder cloud computations are limited to 2GB of RAM memory.
+Alternatively, user-friendly Jupyter Notebooks could be used to run different benchmarks on the cloud (or locally). For instance, the post-processing related to this benchmark is available at:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ROMSOC/benchmark-validation-wmbp/HEAD?labpath=Benchmark.ipynb). Please, notice that mybinder cloud computations are limited to 2GB of RAM memory and this on-cloud service cannot support the LIFEV benchmark simulations.
 
 ## Disclaimer
 In downloading this SOFTWARE you are deemed to have read and agreed to the following terms:
