@@ -13,13 +13,13 @@ with open(filepath) as fp:
     cnt = 1
     while line and timeData_not_found:
         if line.split('=')[0].rstrip() == 'Initial time':
-            print 'Line {}: {}'.format(cnt, line.strip())
+            print('Line {}: {}'.format(cnt, line.strip()))
             init_time = float(line.split('=')[1].strip())
         if line.split('=')[0].rstrip() == 'End time':
-            print 'Line {}: {}'.format(cnt, line.strip())
+            print('Line {}: {}'.format(cnt, line.strip()))
             end_time = float(line.split('=')[1].strip())
         if line.split('=')[0].rstrip() == 'TimeStep':
-            print 'Line {}: {}'.format(cnt, line.strip())
+            print('Line {}: {}'.format(cnt, line.strip()))
             dt = float(line.split('=')[1].strip())
         if 'end_time' in vars() and 'dt' in vars():
             timeData_not_found = False
@@ -28,9 +28,9 @@ with open(filepath) as fp:
 
     timeSize = int(round(end_time / dt))
     init = int(round(init_time / dt))
-    print timeSize
-    print init_time
-    print init
+    print(timeSize)
+    print(init_time)
+    print(init)
 
     VAR_list = "iter, div , outflow,  p_out"
     ITER_list = np.zeros(timeSize)
@@ -113,7 +113,7 @@ data = np.concatenate( (
 						np.reshape(OUT_list,(timeSize,1)),
 						np.reshape(P_OUT_list, (timeSize,1))
 						),axis=1 )
-print "\n"
+print("\n")
 print(np.shape(data))
 print(data)
 np.savetxt (output_filename, data, delimiter=',', newline='\n',header=VAR_list)
