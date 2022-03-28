@@ -15,7 +15,7 @@ print("Head pressure H: ",H, "mmHg")
 
 ## LOAD HQ DATA
 # string of the file with experimental HQ data
-HQFile = open("../data/HQ_curve.csv")
+HQFile = open("./benchmark/data/HQ_curve.csv")
 HQdata = np.loadtxt(HQFile, delimiter=",",skiprows=1)
 # print(HQdata)
 
